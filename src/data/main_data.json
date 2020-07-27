@@ -1,0 +1,177 @@
+{
+  "categories": [
+      {
+        "title": "Back End",
+        "color": "#00086F",
+        "videos": [
+          {
+            "title": "Build A Restful Api With Node.js Express & MongoDB | Rest Api Tutorial",
+            "url": "https://www.youtube.com/watch?v=vjf774RKrLc"
+          },
+          {
+            "title": "Criando uma API Rest com Laravel em 10 minutos",
+            "url": "https://www.youtube.com/watch?v=daq5S5-55Lw"
+          },
+          {
+            "title": "API: Dicionário do Programador",
+            "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          },
+          {
+            "title": "Como fazer deploy da API NodeJS no Heroku com Serjão Berranteiro",
+            "url": "https://www.youtube.com/watch?v=KKvFc_N6RME"
+          },
+          {
+            "title": "Usando Git Direito",
+            "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          }
+        ]
+      },
+    {
+      "title": "Front End",
+      "link": "https://www.alura.com.br/formacao-front-end",
+      "color": "#6BD1FF",
+      "videos": [
+        {
+          "title": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+        },
+        {
+          "title": "SEO com React",
+          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+        },
+        {
+          "title": "Componentização com VanillaJS #AluraMais",
+          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+        },
+        {
+          "title": "Template String: Interpolando strings com JavaScript #AluraMais",
+          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+        },
+        {
+          "title": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+        },
+        {
+          "title": "Novidades do Angular v9",
+          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+        },
+        {
+          "title": "Base para aprender os frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+        }
+      ]
+    },
+    {
+      "title": "Music",
+      "color": "#43bd21",
+      "videos": [
+        {
+          "title": "Demons & Wizards - Fiddler on the Green - Live at Wacken Open Air 2019",
+          "url": "https://www.youtube.com/watch?v=UgaedomlPZE"
+        },
+        {
+          "title": "The Winery Dogs - Elevate Music Video (Official)",
+          "url": "https://www.youtube.com/watch?v=fnMBix9Zq5o"
+        },
+        {
+          "title": "Book of Shallows (feat. Hansi Kürsch, Ronnie Atkins, Jorn Lande, Mille Petrozza)",
+          "url": "https://www.youtube.com/watch?v=JUhnoSKrPLM"
+        },
+        {
+          "title": "NIGHTWISH - Ghost Love Score (OFFICIAL LIVE)",
+          "url": "https://www.youtube.com/watch?v=JYjIlHWBAVo"
+        },
+        {
+          "title": "EPICA - Consign To Oblivion - Live at the Zenith (OFFICIAL VIDEO)",
+          "url": "https://www.youtube.com/watch?v=dkqyyUTCMUQ"
+        },
+        {
+          "title": "Savatage - Edge Of Thorns",
+          "url": "https://www.youtube.com/watch?v=4VOzdcCy1Vg"
+        }
+      ]
+    },
+    {
+      "title": "Animes",
+      "color": "#fca103",
+      "videos": [
+        {
+          "title": "Rurouni Kenshin",
+          "url": "https://www.youtube.com/watch?v=Qq61e-LtJTU"
+        },
+        {
+          "title": "Yu Yu Hakusho",
+          "url": "https://www.youtube.com/watch?v=gPYCCy_erO8"
+        },
+        {
+          "title": "Inuyasha",
+          "url": "https://www.youtube.com/watch?v=R77COqVtK3E"
+        },
+        {
+          "title": "Violet Evergarden",
+          "url": "https://www.youtube.com/watch?v=0CJeDetA45Q"
+        },
+        {
+          "title": "Bleach",
+          "url": "https://www.youtube.com/watch?v=ofvaakyqiF4"
+        },
+        {
+          "title": "Naruto",
+          "url": "https://www.youtube.com/watch?v=uMyuSHewmks"
+        }
+      ]
+    },
+    {
+      "title": "Games",
+      "color": "red",
+      "videos": [
+        {
+          "title": "The Witcher 3",
+          "url": "https://www.youtube.com/watch?v=ehjJ614QfeM"
+        },
+        {
+          "title": "Read Dead Redemption 2",
+          "url": "https://www.youtube.com/watch?v=eaW0tYpxyp0"
+        },
+        {
+          "title": "Final Fantasy 7",
+          "url": "https://www.youtube.com/watch?v=ERgrFVhL-n4"
+        },
+        {
+          "title": "Black Desert Online Remastered",
+          "url": "https://www.youtube.com/watch?v=_g6XCLNQl_w"
+        },
+        {
+          "title": "The Elder Scrolls: Skyrim",
+          "url": "https://www.youtube.com/watch?v=JSRtYpNRoN0"
+        }
+      ]
+    },
+    {
+      "title": "Aprendendo a aprender tecnologia",
+      "color": "#6b5be2",
+      "videos": [
+        {
+          "title": "Como estudar melhor?",
+          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+        },
+        {
+          "title": "Faculdade",
+          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+        },
+        {
+          "title": "Frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+        },
+        {
+          "title": "A mágica do Aprendizado",
+          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+        },
+        {
+          "title": "Como aprender a programar?",
+          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+        }
+      ]
+    }
+  ]
+}
