@@ -26,6 +26,9 @@ export const VideoCardList = styled.ul`
   display: flex;
   overflow-x: auto;
   flex-direction: row;
+  @media (max-width: 1366px) {
+      max-width: 1200px;
+  }
 
   li {
     margin-right: 16px;

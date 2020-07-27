@@ -25,3 +25,13 @@ body {
 a {
   color: inherit;
 }
+
+::-webkit-scrollbar-thumb {
+    border-radius: 12px;background-color: #373737;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #000;
+    height: 10px;
+}
