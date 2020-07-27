@@ -10,8 +10,8 @@ function App() {
     <div style={{ background: "#131313" }}>
         <Menu />
         <BannerMain
-            videoTitle={mainData.categories[0].videos[3].title}
-            url={mainData.categories[0].videos[3].url}
+            videoTitle={mainData.categories[2].videos[1].title}
+            url={mainData.categories[2].videos[1].url}
         />
 
         <Carousel
