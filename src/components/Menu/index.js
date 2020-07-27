@@ -1,7 +1,8 @@
 import React from 'react';
 import Logo from '../../assets/img/lanzaflix-logo.png';
-import ButtonLink from './components/ButtonLink';
+// import ButtonLink from './components/ButtonLink';
 import './Menu.css';
+import Button from '../Button';
 
 /**
  * Navigation Menu Component
@@ -11,11 +12,11 @@ function Menu() {
     return (
         <nav className="menu">
             <a href="/">
-                <img className="logo" src={Logo} alt="LanzaFlix Logo"/>
+                <img className="logo" src={ Logo } alt="LanzaFlix Logo"/>
             </a>
-            <ButtonLink className="buttonLink" href="/">
+            <Button as="a" className="buttonLink" href="/">
                 Novo Vídeo
-            </ButtonLink>
+            </Button>
         </nav>
     );
 }
