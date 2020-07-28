@@ -1,5 +1,8 @@
 import React from 'react';
-import { MessageContainer } from './styles';
+import { MessageContainer, ImgMeme } from './styles';
+import CatImage from '../../assets/img/notFoundmeme.png'
+import Menu from '../../components/Menu';
+import Footer from '../../components/Footer';
 
 /**
  * Render a 404 - Not found page
@@ -7,9 +10,14 @@ import { MessageContainer } from './styles';
  */
 function NotFound() {
     return (
-        <MessageContainer>
-            <h1>404 - Not Found</h1>
-        </MessageContainer>
+        <>
+            <Menu />
+            <MessageContainer>
+                <h1>404 - Not Found</h1>
+                <ImgMeme src={CatImage}/>
+            </MessageContainer>
+            <Footer />
+        </>
     );
 }
 
