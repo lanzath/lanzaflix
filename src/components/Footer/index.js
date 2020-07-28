@@ -17,7 +17,8 @@ function Footer() {
                 <a href="https://www.alura.com.br/">
                     Imersão React da Alura,
                 </a>
-                {' '}personalizado com &#10084;&#65039; por Thiago Lanza.
+                {' '}personalizado com &#10084;&#65039; por
+                <a href="https://github.com/lanzath"> Thiago Lanza. </a>
             </p>
         </FooterBase>
     );
