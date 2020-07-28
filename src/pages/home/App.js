@@ -5,7 +5,7 @@ import Carousel from '../../components/Carousel';
 import Footer from '../../components/Footer';
 import mainData from '../../data/main_data.json';
 
-function App() {
+function Home() {
   return (
     <div style={{ background: "#131313" }}>
         <Menu />
@@ -44,4 +44,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

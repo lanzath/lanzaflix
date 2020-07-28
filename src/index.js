@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './pages/home/App';
-import videoRegister from './pages/register/video';
+import Home from './pages/home/App';
+import VideoRegister from './pages/register/video';
+import NotFound from './pages/404';
 
 import {
     BrowserRouter as Router,
@@ -14,8 +15,9 @@ import {
 ReactDOM.render(
   <Router>
       <Switch>
-          <Route path="/" component={App} exact />
-          <Route path="/video/register" component={videoRegister} />
+          <Route path="/" component={Home} exact />
+          <Route path="/register/video" component={VideoRegister} />
+          <Route component={NotFound} />
       </Switch>
   </Router>,
   document.getElementById('root')
