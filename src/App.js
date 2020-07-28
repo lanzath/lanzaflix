@@ -10,12 +10,11 @@ function App() {
     <div style={{ background: "#131313" }}>
         <Menu />
         <BannerMain
-            videoTitle={mainData.categories[2].videos[1].title}
-            url={mainData.categories[2].videos[1].url}
+            videoTitle={mainData.categories[2].videos[0].title}
+            url={mainData.categories[2].videos[0].url}
         />
 
         <Carousel
-            ignoreFirstVideo
             category={mainData.categories[0]}
         />
 
@@ -24,6 +23,7 @@ function App() {
         />
 
         <Carousel
+            ignoreFirstVideo
             category={mainData.categories[2]}
         />
 
