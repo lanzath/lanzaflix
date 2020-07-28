@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../assets/img/lanzaflix-logo.png';
+import Logo from '../../assets/img/lanzaflixlogo.png';
 // import ButtonLink from './components/ButtonLink';
 import './Menu.css';
 import Button from '../Button';
