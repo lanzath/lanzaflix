@@ -43,7 +43,7 @@ function BannerMain({ videoTitle, videoDescription, url }) {
                     <VideoIframeResponsive
                         youtubeID={ youTubeID }
                     />
-                    <WatchButton>
+                    <WatchButton as="a" href={url}>
                         Assistir
                     </WatchButton>
                 </ContentAreaContainer.Item>
