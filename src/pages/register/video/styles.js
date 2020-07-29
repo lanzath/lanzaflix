@@ -1,7 +1,9 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Content = styled.div`
     display: flex;
+    align-items: center;
     flex-direction: column;
     background: var(--secondary);
     color: var(--white);
@@ -16,5 +18,24 @@ export const Content = styled.div`
     @media (max-width: 900px) {
     min-height: 300px;
     font-size: 16px;
+    }
+`;
+
+export const Button = styled(Link)`
+    background: var(--white);
+    width: 200px;
+    color: var(--black);
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 12px;
+    height: 60px;
+    font-size: 16px;
+    padding: 16px;
+    margin-top: 20vh;
+    transition: ease 300ms;
+    :hover {
+        border-color: var(--secondary);
+        opacity: 0.9;
+        color: var(--blackLighter);
     }
 `;

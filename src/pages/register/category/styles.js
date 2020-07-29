@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Content = styled.div`
     display: flex;
+    align-items: center;
     flex-direction: column;
     background: var(--secondary);
     color: var(--white);
@@ -17,4 +18,27 @@ export const Content = styled.div`
     min-height: 300px;
     font-size: 16px;
     }
+`;
+
+export const Button = styled.a`
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 16px 24px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  outline: none;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 200px;
+  text-align: center;
+  border: 1px solid transparent;
+  color: var(--black);
+  background: var(--white);
+  border-color: var(--black);
+  transition: opacity .3s;
+  margin-top: 20px;
+  @media (max-width: 800px) {
+    display: block;
+  }
 `;

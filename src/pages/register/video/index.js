@@ -1,8 +1,7 @@
 import React from 'react';
-import { Content } from './styles';
-import Menu from '../../../components/Menu';
-import Footer from '../../../components/Footer';
-
+// import { Link } from 'react-router-dom';
+import { Content, Button } from './styles';
+import Layout from '../../../components/Layout';
 
 /**
  * New video register component
@@ -11,11 +10,14 @@ import Footer from '../../../components/Footer';
 function VideoRegister() {
     return (
         <>
-            <Menu />
-            <Content>
-                <h1>Be patient, still working on here! xD</h1>
-            </Content>
-            <Footer />
+            <Layout>
+                <Content>
+                    <h2>Cadastro de Vídeo</h2>
+                    <Button to="/register/category" style={{textDecoration: 'none', fontWeight: 'bold'}}>
+                        Cadastrar Categoria
+                    </Button>
+                </Content>
+            </Layout>
         </>
     );
 }
