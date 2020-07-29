@@ -43,3 +43,8 @@ a {
     background-color: #000;
     height: 10px;
 }
+
+.slick-dots li button:before {
+    padding-top: 4px;
+    color: white;
+}
