@@ -20,6 +20,12 @@ export const Content = styled.div`
     }
 `;
 
+export const Form = styled.form`
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+`;
+
 export const Button = styled.a`
   box-sizing: border-box;
   cursor: pointer;
