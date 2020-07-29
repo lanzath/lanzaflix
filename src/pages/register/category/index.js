@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { Content, Button } from './styles';
+import { Content, Button, Form } from './styles';
 import Layout from '../../../components/Layout';
 import FormField from '../../../components/FormField';
+import TextAreaField from '../../../components/TextAreaField';
 
 /**
  * New video register component
@@ -36,7 +37,7 @@ function CategoryRegister() {
                 <Content>
                     <h1> Cadastro de Categoria: { values.name } </h1>
 
-                    <form onSubmit={function handleSubmit(event) {
+                    <Form onSubmit={function handleSubmit(event) {
                             event.preventDefault();
                             setCategories([
                                 ...categories,
@@ -49,21 +50,17 @@ function CategoryRegister() {
                     <FormField
                         label="Nome da Categoria"
                         type="text"
-                        name="color"
+                        name="name"
                         value={values.name}
                         onChange={handleChange}
                     />
 
-                    <div>
-                        <label> Descrição
-                            <textarea
-                                type="text"
-                                name="description"
-                                value={values.description}
-                                onChange={handleChange}
-                            />
-                        </label>
-                    </div>
+                    <TextAreaField
+                        label="Descrição"
+                        name="Description"
+                        value={values.description}
+                        onChange={handleChange}
+                    />
 
                     <FormField
                         label="Cor"
@@ -82,7 +79,7 @@ function CategoryRegister() {
                                 )
                             })}
                         </ul>
-                    </form>
+                    </Form>
                 </Content>
             </Layout>
         </>

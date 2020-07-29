@@ -3,19 +3,19 @@ import { FormContainer, FormLabel, FormInput } from './styles';
 
 /**
  * Form fields component
- * @param {string} type from props.type
  * @param {string} name from props.name
  * @param {object} value from props.value
  * @param {Event} onChange from props.onChange
  * @returns {Element} JSX
  */
-function FormField({ label, type, name, value, onChange }) {
+function TextAreaField({ label, name, value, onChange }) {
     return (
         <FormContainer>
             <FormLabel>
                 { label }:
                 <FormInput
-                    type={type}
+                    rows="10"
+                    cols="50"
                     name={name}
                     value={value}
                     onChange={onChange}
@@ -25,4 +25,4 @@ function FormField({ label, type, name, value, onChange }) {
     );
 }
 
-export default FormField;
+export default TextAreaField;
