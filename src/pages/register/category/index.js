@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Content, Button, Form } from './styles';
 import Layout from '../../../components/Layout';
 import FormField from '../../../components/FormField';
@@ -98,6 +99,8 @@ function CategoryRegister() {
               })}
             </ul>
           </Form>
+
+          <Link to="/">Voltar para home</Link>
         </Content>
       </Layout>
     </>
