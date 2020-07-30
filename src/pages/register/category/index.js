@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Content, Button, Form } from './styles';
 import Layout from '../../../components/Layout';
 import FormField from '../../../components/FormField';
-import TextAreaField from '../../../components/TextAreaField';
 
 /**
  * New video register component
@@ -47,28 +46,29 @@ function CategoryRegister() {
                             setValues(defaultValues)
                     }}>
 
-                    <FormField
-                        label="Nome da Categoria"
-                        type="text"
-                        name="name"
-                        value={values.name}
-                        onChange={handleChange}
-                    />
+                        <FormField
+                            label="Nome da Categoria"
+                            type="text"
+                            name="name"
+                            value={values.name}
+                            onChange={handleChange}
+                        />
 
-                    <TextAreaField
-                        label="Descrição"
-                        name="description"
-                        value={values.description}
-                        onChange={handleChange}
-                    />
+						<FormField
+                            label="Descrição da Categoria"
+                            type="textarea"
+                            name="description"
+                            value={values.description}
+                            onChange={handleChange}
+                        />
 
-                    <FormField
-                        label="Cor"
-                        type="color"
-                        name="color"
-                        value={values.color}
-                        onChange={handleChange}
-                    />
+                        <FormField
+                            label="Cor"
+                            type="color"
+                            name="color"
+                            value={values.color}
+                            onChange={handleChange}
+                        />
                         <Button as="button" type="submit"> Cadastrar </Button>
                         <ul>
                             { categories.map((category, index) => {
