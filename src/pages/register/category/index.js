@@ -57,7 +57,7 @@ function CategoryRegister() {
 
                     <TextAreaField
                         label="Descrição"
-                        name="Description"
+                        name="description"
                         value={values.description}
                         onChange={handleChange}
                     />

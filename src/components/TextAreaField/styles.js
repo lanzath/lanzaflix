@@ -11,7 +11,7 @@ export const FormLabel = styled.label`
     align-items: center;
 `;
 
-export const FormInput = styled.textarea`
+export const TextArea = styled.textarea`
     margin: 4px auto;
     resize: none;
     @media(max-width: 900px) {

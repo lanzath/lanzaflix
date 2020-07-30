@@ -1,5 +1,5 @@
 import React from 'react'
-import { FormContainer, FormLabel, FormInput } from './styles';
+import { FormContainer, FormLabel, TextArea } from './styles';
 
 /**
  * Form fields component
@@ -13,7 +13,7 @@ function TextAreaField({ label, name, value, onChange }) {
         <FormContainer>
             <FormLabel>
                 { label }:
-                <FormInput
+                <TextArea
                     rows="10"
                     cols="50"
                     name={name}
