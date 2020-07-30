@@ -1,9 +1,7 @@
 import styled from 'styled-components';
 
 export const Content = styled.div`
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+
     background: var(--secondary);
     color: var(--white);
     font-size: 28px;
@@ -21,9 +19,7 @@ export const Content = styled.div`
 `;
 
 export const Form = styled.form`
-    display: flex;
-    flex-flow: wrap column;
-    align-items: center;
+    display: block;
 `;
 
 export const Button = styled.a`

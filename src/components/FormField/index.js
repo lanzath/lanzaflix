@@ -10,7 +10,6 @@ const FormContainer = styled.div`
     }
     input[type="color"] {
         display: block;
-        width: 120px;
         padding-left: 60px;
     }
 `;

@@ -34,7 +34,7 @@ function CategoryRegister() {
         <>
             <Layout>
                 <Content>
-                    <h1> Cadastro de Categoria: { values.name } </h1>
+                    <h1> Cadastro de Categoria { values.name } </h1>
 
                     <Form onSubmit={function handleSubmit(event) {
                             event.preventDefault();
@@ -73,7 +73,7 @@ function CategoryRegister() {
                         <ul>
                             { categories.map((category, index) => {
                                 return (
-                                    <li key={index}>
+                                    <li key={`${category.name}${index}`}>
                                         { category.name }
                                     </li>
                                 )
