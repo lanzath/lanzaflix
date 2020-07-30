@@ -32,8 +32,10 @@ function CategoryRegister() {
   }
 
   useEffect(() => {
-    const url = 'https://lanzaflix-server.herokuapp.com/categories/';
-    fetch(url)
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categories/'
+      : 'https://lanzaflix-server.herokuapp.com/categories/';
+    fetch(URL)
       .then(async (response) => {
         const res = await response.json();
         setCategories([
