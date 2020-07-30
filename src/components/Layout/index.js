@@ -9,15 +9,15 @@ import { Main } from './styles';
  * @returns {Element} JSX
  */
 function Layout({ children }) {
-    return (
-        <>
-            <Menu />
-                <Main>
-                    { children }
-                </Main>
-            <Footer />
-        </>
-    );
+  return (
+    <>
+      <Menu />
+      <Main>
+        { children }
+      </Main>
+      <Footer />
+    </>
+  );
 }
 
 export default Layout;

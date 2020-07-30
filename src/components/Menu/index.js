@@ -10,16 +10,16 @@ import Button from '../Button';
  * @returns {Element} JSX
  */
 function Menu() {
-    return (
-        <nav className="menu">
-            <Link to="/">
-                <img className="logo" src={ Logo } alt="LanzaFlix Logo"/>
-            </Link>
-            <Button as={ Link } className="buttonLink" to="/register/video">
-                Novo Vídeo
-            </Button>
-        </nav>
-    );
+  return (
+    <nav className="menu">
+      <Link to="/">
+        <img className="logo" src={Logo} alt="LanzaFlix Logo" />
+      </Link>
+      <Button as={Link} className="buttonLink" to="/register/video">
+        Novo Vídeo
+      </Button>
+    </nav>
+  );
 }
 
 export default Menu;

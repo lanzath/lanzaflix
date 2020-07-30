@@ -11,8 +11,8 @@ export const FooterBase = styled.footer`
   color: var(--white);
   text-align: center;
   a {
-      text-decoration: none;
-      font-weight: bold;
+    text-decoration: none;
+    font-weight: bold;
   }
   @media (max-width: 800px) {
     margin-bottom: 50px;

@@ -6,7 +6,7 @@ export const Main = styled.main`
     margin-bottom: 20px;
     flex: 1;
     @media (max-width: 800px) {
-        padding-left: 1%;
-        padding-right: 1%;
+      padding-left: 1%;
+      padding-right: 1%;
     }
 `;

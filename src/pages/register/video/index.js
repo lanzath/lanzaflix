@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import { Content, Button } from './styles';
 import Layout from '../../../components/Layout';
 
@@ -8,18 +7,18 @@ import Layout from '../../../components/Layout';
  * @returns {Element} JSX
  */
 function VideoRegister() {
-    return (
-        <>
-            <Layout>
-                <Content>
-                    <h2>Cadastro de Vídeo</h2>
-                    <Button to="/register/category" style={{textDecoration: 'none', fontWeight: 'bold'}}>
-                        Cadastrar Categoria
-                    </Button>
-                </Content>
-            </Layout>
-        </>
-    );
+  return (
+    <>
+      <Layout>
+        <Content>
+          <h2>Cadastro de Vídeo</h2>
+          <Button to="/register/category" style={{ textDecoration: 'none', fontWeight: 'bold' }}>
+            Cadastrar Categoria
+          </Button>
+        </Content>
+      </Layout>
+    </>
+  );
 }
 
 export default VideoRegister;

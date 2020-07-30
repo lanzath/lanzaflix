@@ -8,14 +8,14 @@ import Layout from '../../components/Layout';
  * @returns {Element} JSX
  */
 function NotFound() {
-    return (
-        <Layout>
-            <MessageContainer>
-                <h2>404 - Not Found</h2>
-                <ImgMeme src={CatImage}/>
-            </MessageContainer>
-        </Layout>
-    );
+  return (
+    <Layout>
+      <MessageContainer>
+        <h2>404 - Not Found</h2>
+        <ImgMeme src={CatImage} />
+      </MessageContainer>
+    </Layout>
+  );
 }
 
 export default NotFound;
