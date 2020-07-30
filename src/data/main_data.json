@@ -1,47 +1,62 @@
 {
   "categories": [
-      {
-        "title": "Back End",
-        "color": "#00086F",
-        "videos": [
-          {
-            "title": "Build A Restful Api With Node.js Express & MongoDB | Rest Api Tutorial",
-            "url": "https://www.youtube.com/watch?v=vjf774RKrLc"
-          },
-          {
-            "title": "Criando uma API Rest com Laravel em 10 minutos",
-            "url": "https://www.youtube.com/watch?v=daq5S5-55Lw"
-          },
-          {
-            "title": "API: Dicionário do Programador",
-            "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-          },
-          {
-            "title": "Como fazer deploy da API NodeJS no Heroku com Serjão Berranteiro",
-            "url": "https://www.youtube.com/watch?v=KKvFc_N6RME"
-          },
-          {
-            "title": "Usando Git Direito",
-            "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
-          }
-        ]
-      },
     {
-      "title": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
-      "color": "#6BD1FF",
+      "title": "Back End",
+      "color": "#00086F",
       "videos": [
         {
-          "title": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "title": "Build A Restful Api With Node.js Express & MongoDB | Rest Api Tutorial",
+          "url": "https://www.youtube.com/watch?v=vjf774RKrLc"
         },
+        {
+          "title": "Criando uma API Rest com Laravel em 10 minutos",
+          "url": "https://www.youtube.com/watch?v=daq5S5-55Lw"
+        },
+        {
+          "title": "Como fazer deploy da API NodeJS no Heroku com Serjão Berranteiro",
+          "url": "https://www.youtube.com/watch?v=KKvFc_N6RME"
+        },
+        {
+          "title": "Usando Git Direito",
+          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+        },
+        {
+          "title": "API: Dicionário do Programador",
+          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+        },
+        {
+          "title": "Laravel Seeds e Laravel Factories | Populando banco de dados",
+          "url": "https://www.youtube.com/watch?v=22p1SvDziY0"
+        },
+        {
+          "title": "Node.js Passport Login System Tutorial",
+          "url": "https://www.youtube.com/watch?v=-RCnNyD0L-s"
+        },
+        {
+          "title": "Node.js API Authentication With JWT",
+          "url": "https://www.youtube.com/watch?v=7nafaH9SddU"
+        },
+        {
+          "title": "AUTENTICAÇÃO EM API REST UTILIZANDO JWT | LARAVEL TIPS #018",
+          "url": "https://www.youtube.com/watch?v=Ri-DLFeepbM"
+        }
+      ]
+    },
+    {
+      "title": "Front End",
+      "color": "#6BD1FF",
+      "videos": [
         {
           "title": "SEO com React",
           "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
         },
         {
-          "title": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "title": "Angular: Atualizando projetos para Angular v10 e novidades",
+          "url": "https://www.youtube.com/watch?v=QgdBM2VUW10"
+        },
+        {
+          "title": "React JS Curso Rápido ⚛️ Masterclass #2 2020 - 100% Prático!",
+          "url": "https://www.youtube.com/watch?v=GJ8Vm-h0V8I"
         },
         {
           "title": "Template String: Interpolando strings com JavaScript #AluraMais",
