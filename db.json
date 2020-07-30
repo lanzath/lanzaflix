@@ -1,0 +1,16 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Backend",
+            "description": "Some of my most watched backend content videos",
+            "color": "#cbd1ff"
+        },
+        {
+            "id": 2,
+            "name": "Frontend",
+            "description": "Some of my most watched frontend content videos",
+            "color": "#4bd1ff"
+        }
+    ]
+}
