@@ -2,24 +2,6 @@
   "categories": [
     {
       "id": 1,
-      "title": "Back End",
-      "color": "#00086F",
-      "link_extra": {
-        "text": "Build A Restful Api With Node.js Express & MongoDB | Rest Api Tutorial",
-        "url": "https://www.youtube.com/watch?v=vjf774RKrLc"
-      }
-    },
-    {
-      "id": 2,
-      "title": "Front End",
-      "color": "#6BD1FF",
-      "link_extra": {
-        "text": "SEO com React",
-        "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
-      }
-    },
-    {
-      "id": 3,
       "title": "Music",
       "color": "#43bd21",
       "link_extra": {
@@ -28,7 +10,7 @@
       }
     },
     {
-      "id": 4,
+      "id": 2,
       "title": "Animes",
       "color": "#fca103",
       "link_extra": {
@@ -37,7 +19,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 3,
       "title": "Games",
       "color": "red",
       "link_extra": {
@@ -46,12 +28,30 @@
       }
     },
     {
-      "id": 6,
-      "title": "Aprendendo a aprender tecnologia",
+      "id": 4,
+      "title": "TV Show",
       "color": "#6b5be2",
       "link_extra": {
-        "text": "Como estudar melhor?",
-        "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+        "text": "Bojack Horseman",
+        "url": "https://www.youtube.com/watch?v=i1eJMig5Ik4"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Back End",
+      "color": "#00086F",
+      "link_extra": {
+        "text": "Build A Restful Api With Node.js Express & MongoDB | Rest Api Tutorial",
+        "url": "https://www.youtube.com/watch?v=vjf774RKrLc"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Front End",
+      "color": "#6BD1FF",
+      "link_extra": {
+        "text": "SEO com React",
+        "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
       }
     }
   ],
@@ -59,236 +59,242 @@
     {
       "id": 1,
       "categoryId": 1,
-      "title": "Build A Restful Api With Node.js Express & MongoDB | Rest Api Tutorial",
-      "url": "https://www.youtube.com/watch?v=vjf774RKrLc"
-    },
-    {
-      "id": 2,
-      "categoryId": 1,
-      "title": "Criando uma API Rest com Laravel em 10 minutos",
-      "url": "https://www.youtube.com/watch?v=daq5S5-55Lw"
-    },
-    {
-      "id": 3,
-      "categoryId": 1,
-      "title": "Como fazer deploy da API NodeJS no Heroku com Serjão Berranteiro",
-      "url": "https://www.youtube.com/watch?v=KKvFc_N6RME"
-    },
-    {
-      "id": 4,
-      "categoryId": 1,
-      "title": "Usando Git Direito",
-      "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
-    },
-    {
-      "id": 5,
-      "categoryId": 1,
-      "title": "API: Dicionário do Programador",
-      "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-    },
-    {
-      "id": 6,
-      "categoryId": 1,
-      "title": "Laravel Seeds e Laravel Factories | Populando banco de dados",
-      "url": "https://www.youtube.com/watch?v=22p1SvDziY0"
-    },
-    {
-      "id": 7,
-      "categoryId": 1,
-      "title": "Node.js Passport Login System Tutorial",
-      "url": "https://www.youtube.com/watch?v=-RCnNyD0L-s"
-    },
-    {
-      "id": 8,
-      "categoryId": 1,
-      "title": "",
-      "url": ""
-    },
-    {
-      "id": 9,
-      "categoryId": 1,
-      "title": "Node.js API Authentication With JWT",
-      "url": "https://www.youtube.com/watch?v=7nafaH9SddU"
-    },
-    {
-      "id": 10,
-      "categoryId": 1,
-      "title": "AUTENTICAÇÃO EM API REST UTILIZANDO JWT | LARAVEL TIPS #018",
-      "url": "https://www.youtube.com/watch?v=Ri-DLFeepbM"
-    },
-    {
-      "id": 11,
-      "categoryId": 2,
-      "title": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
-    },
-    {
-      "id": 12,
-      "categoryId": 2,
-      "title": "Angular: Atualizando projetos para Angular v10 e novidades",
-      "url": "https://www.youtube.com/watch?v=QgdBM2VUW10"
-    },
-    {
-      "id": 13,
-      "categoryId": 2,
-      "title": "React JS Curso Rápido ⚛️ Masterclass #2 2020 - 100% Prático!",
-      "url": "https://www.youtube.com/watch?v=GJ8Vm-h0V8I"
-    },
-    {
-      "id": 14,
-      "categoryId": 2,
-      "title": "Template String: Interpolando strings com JavaScript #AluraMais",
-      "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
-    },
-    {
-      "id": 15,
-      "categoryId": 2,
-      "title": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
-    },
-    {
-      "id": 16,
-      "categoryId": 2,
-      "title": "Novidades do Angular v9",
-      "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
-    },
-    {
-      "id": 17,
-      "categoryId": 2,
-      "title": "Base para aprender os frameworks",
-      "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-    },
-    {
-      "id": 18,
-      "categoryId": 3,
       "title": "The Winery Dogs - Elevate Music Video (Official)",
       "url": "https://www.youtube.com/watch?v=fnMBix9Zq5o"
     },
     {
-      "id": 19,
-      "categoryId": 3,
+      "id": 2,
+      "categoryId": 1,
       "title": "Demons & Wizards - Fiddler on the Green - Live at Wacken Open Air 2019",
       "url": "https://www.youtube.com/watch?v=UgaedomlPZE"
     },
     {
-      "id": 20,
-      "categoryId": 3,
+      "id": 3,
+      "categoryId": 1,
       "title": "Book of Shallows (feat. Hansi Kürsch, Ronnie Atkins, Jorn Lande, Mille Petrozza)",
       "url": "https://www.youtube.com/watch?v=JUhnoSKrPLM"
     },
     {
-      "id": 21,
-      "categoryId": 3,
+      "id": 4,
+      "categoryId": 1,
       "title": "NIGHTWISH - Ghost Love Score (OFFICIAL LIVE)",
       "url": "https://www.youtube.com/watch?v=JYjIlHWBAVo"
     },
     {
-      "id": 22,
-      "categoryId": 3,
+      "id": 5,
+      "categoryId": 1,
       "title": "EPICA - Consign To Oblivion - Live at the Zenith (OFFICIAL VIDEO)",
       "url": "https://www.youtube.com/watch?v=dkqyyUTCMUQ"
     },
     {
-      "id": 23,
-      "categoryId": 3,
+      "id": 6,
+      "categoryId": 1,
       "title": "Savatage - Edge Of Thorns",
       "url": "https://www.youtube.com/watch?v=4VOzdcCy1Vg"
     },
     {
-      "id": 24,
-      "categoryId": 4,
+      "id": 7,
+      "categoryId": 2,
       "title": "Rurouni Kenshin",
       "url": "https://www.youtube.com/watch?v=Qq61e-LtJTU"
     },
     {
-      "id": 25,
-      "categoryId": 4,
+      "id": 8,
+      "categoryId": 2,
       "title": "Yu Yu Hakusho",
       "url": "https://www.youtube.com/watch?v=gPYCCy_erO8"
     },
     {
-      "id": 26,
-      "categoryId": 4,
+      "id": 9,
+      "categoryId": 2,
       "title": "Inuyasha",
       "url": "https://www.youtube.com/watch?v=R77COqVtK3E"
     },
     {
-      "id": 27,
-      "categoryId": 4,
+      "id": 10,
+      "categoryId": 2,
       "title": "Violet Evergarden",
       "url": "https://www.youtube.com/watch?v=0CJeDetA45Q"
     },
     {
-      "id": 28,
-      "categoryId": 4,
+      "id": 11,
+      "categoryId": 2,
       "title": "Bleach",
       "url": "https://www.youtube.com/watch?v=ofvaakyqiF4"
     },
     {
-      "id": 29,
-      "categoryId": 4,
+      "id": 12,
+      "categoryId": 2,
       "title": "Naruto",
       "url": "https://www.youtube.com/watch?v=uMyuSHewmks"
     },
     {
-      "id": 30,
-      "categoryId": 5,
+      "id": 13,
+      "categoryId": 3,
       "title": "The Witcher 3",
       "url": "https://www.youtube.com/watch?v=ehjJ614QfeM"
     },
     {
-      "id": 31,
-      "categoryId": 5,
+      "id": 14,
+      "categoryId": 3,
       "title": "Read Dead Redemption 2",
       "url": "https://www.youtube.com/watch?v=eaW0tYpxyp0"
     },
     {
-      "id": 32,
-      "categoryId": 5,
+      "id": 15,
+      "categoryId": 3,
       "title": "Final Fantasy 7",
       "url": "https://www.youtube.com/watch?v=ERgrFVhL-n4"
     },
     {
-      "id": 33,
-      "categoryId": 5,
+      "id": 16,
+      "categoryId": 3,
       "title": "Black Desert Online Remastered",
       "url": "https://www.youtube.com/watch?v=_g6XCLNQl_w"
     },
     {
-      "id": 34,
-      "categoryId": 5,
+      "id": 17,
+      "categoryId": 3,
       "title": "The Elder Scrolls: Skyrim",
       "url": "https://www.youtube.com/watch?v=JSRtYpNRoN0"
     },
     {
+      "id": 18,
+      "categoryId": 4,
+      "title": "BoJack Horseman | Official Trailer [HD] | Netflix",
+      "url": "https://www.youtube.com/watch?v=i1eJMig5Ik4"
+    },
+    {
+      "id": 19,
+      "categoryId": 4,
+      "title": "Best Intro Ever - The Office US",
+      "url": "https://www.youtube.com/watch?v=mfokPqeSNcw"
+    },
+    {
+      "id": 20,
+      "categoryId": 4,
+      "title": "Family Guy: The Quest for Stuff - Launch Trailer",
+      "url": "https://www.youtube.com/watch?v=lAETORv7hAY"
+    },
+    {
+      "id": 21,
+      "categoryId": 4,
+      "title": "BROOKLYN NINE-NINE - Official Trailer",
+      "url": "https://www.youtube.com/watch?v=sEOuJ4z5aTc"
+    },
+    {
+      "id": 22,
+      "categoryId": 4,
+      "title": "The Fresh Prince Of Bel Air Theme Song (Full)",
+      "url": "https://www.youtube.com/watch?v=1nCqRmx3Dnw"
+    },
+    {
+      "id": 23,
+      "categoryId": 4,
+      "title": "Two and a Half Men - All intros",
+      "url": "https://www.youtube.com/watch?v=zJV_STpyiTE"
+    },
+    {
+      "id": 25,
+      "categoryId": 4,
+      "title": "Supernatural Season 1 Trailer",
+      "url": "https://www.youtube.com/watch?v=t-775JyzDTk"
+    },
+    {
+      "id": 25,
+      "categoryId": 5,
+      "title": "Build A Restful Api With Node.js Express & MongoDB | Rest Api Tutorial",
+      "url": "https://www.youtube.com/watch?v=vjf774RKrLc"
+    },
+    {
+      "id": 26,
+      "categoryId": 5,
+      "title": "Criando uma API Rest com Laravel em 10 minutos",
+      "url": "https://www.youtube.com/watch?v=daq5S5-55Lw"
+    },
+    {
+      "id": 27,
+      "categoryId": 5,
+      "title": "Como fazer deploy da API NodeJS no Heroku com Serjão Berranteiro",
+      "url": "https://www.youtube.com/watch?v=KKvFc_N6RME"
+    },
+    {
+      "id": 28,
+      "categoryId": 5,
+      "title": "Usando Git Direito",
+      "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+    },
+    {
+      "id": 29,
+      "categoryId": 5,
+      "title": "API: Dicionário do Programador",
+      "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+    },
+    {
+      "id": 30,
+      "categoryId": 5,
+      "title": "Laravel Seeds e Laravel Factories | Populando banco de dados",
+      "url": "https://www.youtube.com/watch?v=22p1SvDziY0"
+    },
+    {
+      "id": 31,
+      "categoryId": 5,
+      "title": "Node.js Passport Login System Tutorial",
+      "url": "https://www.youtube.com/watch?v=-RCnNyD0L-s"
+    },
+    {
+      "id": 32,
+      "categoryId": 5,
+      "title": "Node.js API Authentication With JWT",
+      "url": "https://www.youtube.com/watch?v=7nafaH9SddU"
+    },
+    {
+      "id": 33,
+      "categoryId": 5,
+      "title": "AUTENTICAÇÃO EM API REST UTILIZANDO JWT | LARAVEL TIPS #018",
+      "url": "https://www.youtube.com/watch?v=Ri-DLFeepbM"
+    },
+    {
+      "id": 34,
+      "categoryId": 6,
+      "title": "SEO com React",
+      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+    },
+    {
       "id": 35,
       "categoryId": 6,
-      "title": "Como estudar melhor?",
-      "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+      "title": "Angular: Atualizando projetos para Angular v10 e novidades",
+      "url": "https://www.youtube.com/watch?v=QgdBM2VUW10"
     },
     {
       "id": 36,
       "categoryId": 6,
-      "title": "Faculdade",
-      "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+      "title": "React JS Curso Rápido ⚛️ Masterclass #2 2020 - 100% Prático!",
+      "url": "https://www.youtube.com/watch?v=GJ8Vm-h0V8I"
     },
     {
       "id": 37,
       "categoryId": 6,
-      "title": "Frameworks",
-      "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+      "title": "Template String: Interpolando strings com JavaScript #AluraMais",
+      "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
     },
     {
       "id": 38,
       "categoryId": 6,
-      "title": "A mágica do Aprendizado",
-      "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+      "title": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
+      "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
     },
     {
       "id": 39,
       "categoryId": 6,
-      "title": "Como aprender a programar?",
-      "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+      "title": "Novidades do Angular v9",
+      "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+    },
+    {
+      "id": 40,
+      "categoryId": 6,
+      "title": "Base para aprender os frameworks",
+      "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
     }
   ]
 }
