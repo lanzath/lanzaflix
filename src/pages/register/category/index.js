@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Content, Button, Form } from './styles';
 import Layout from '../../../components/Layout';
 import FormField from '../../../components/FormField';
+import useForm from '../../../hooks/useForm';
 
 /**
  * New video register component
@@ -10,26 +11,14 @@ import FormField from '../../../components/FormField';
  */
 function CategoryRegister() {
   const defaultValues = {
-    name: '',
+    title: '',
     description: '',
     color: '',
   };
+
+  const { handleChange, values, clearForm } = useForm(defaultValues);
+
   const [categories, setCategories] = useState([]);
-  const [values, setValues] = useState(defaultValues);
-
-  function setValue(key, value) {
-    setValues({
-      ...values,
-      [key]: value,
-    });
-  }
-
-  function handleChange(event) {
-    setValue(
-      event.target.getAttribute('name'),
-      event.target.value
-    );
-  }
 
   useEffect(() => {
     const URL = window.location.hostname.includes('localhost')
@@ -42,15 +31,13 @@ function CategoryRegister() {
           ...res,
         ]);
       });
-  }, [
-
-  ]);
+  });
 
   return (
     <>
       <Layout>
         <Content>
-          <h1> Cadastro de Categoria {values.name} </h1>
+          <h1> Cadastro de Categoria {values.title} </h1>
 
           <Form onSubmit={function handleSubmit(event) {
             event.preventDefault();
@@ -59,14 +46,14 @@ function CategoryRegister() {
               values,
             ]);
 
-            setValues(defaultValues)
+            clearForm(defaultValues);
           }}>
 
             <FormField
               label="Nome da Categoria"
               type="text"
-              name="name"
-              value={values.name}
+              name="title"
+              value={values.title}
               onChange={handleChange}
             />
 
@@ -94,8 +81,8 @@ function CategoryRegister() {
             <ul>
               {categories.map((category, index) => {
                 return (
-                  <li key={`${category.name}${index}`}>
-                    {category.name}
+                  <li key={`${category.title}${index}`}>
+                    {category.title}
                   </li>
                 )
               })}
