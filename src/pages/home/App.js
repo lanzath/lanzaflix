@@ -16,8 +16,6 @@ function Home() {
       .then(categoriesWithVideos => setMainData(categoriesWithVideos));
   }, []);
 
-  //http://localhost:8080/categories?_embed=videos
-
   return (
     <Layout>
       {mainData.length === 0 && (<div>Loading...</div>)}
