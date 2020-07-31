@@ -2,9 +2,6 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Content = styled.div`
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     background: var(--secondary);
     color: var(--white);
     font-size: 28px;
@@ -21,7 +18,12 @@ export const Content = styled.div`
     }
 `;
 
+export const Form = styled.form`
+    display: block;
+`;
+
 export const Button = styled(Link)`
+    display: block;
     background: var(--white);
     width: 200px;
     color: var(--black);
@@ -31,7 +33,8 @@ export const Button = styled(Link)`
     height: 60px;
     font-size: 16px;
     padding: 16px;
-    margin-top: 20vh;
+    margin-top: 2vh;
+    text-decoration: none;
     transition: ease 300ms;
     :hover {
         border-color: var(--secondary);
