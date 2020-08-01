@@ -1,37 +1,39 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+// import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Content, Button, Form } from './styles';
+// import { Content, Button, Form } from './styles';
+import { Content, Button } from './styles';
 import Layout from '../../../components/Layout';
-import FormField from '../../../components/FormField';
-import useForm from '../../../hooks/useForm';
+// import FormField from '../../../components/FormField';
+// import useForm from '../../../hooks/useForm';
 
 /**
  * New video register component
  * @returns {Element} JSX
  */
 function CategoryRegister() {
-  const defaultValues = {
-    title: '',
-    description: '',
-    color: '',
-  };
+  // const defaultValues = {
+  //   title: '',
+  //   description: '',
+  //   color: '',
+  // };
 
-  const { handleChange, values, clearForm } = useForm(defaultValues);
+  // const { handleChange, values, clearForm } = useForm(defaultValues);
 
-  const [categories, setCategories] = useState([]);
+  // const [categories, setCategories] = useState([]);
 
-  useEffect(() => {
-    const URL = window.location.hostname.includes('localhost')
-      ? 'http://localhost:8080/categories/'
-      : 'https://lanzaflix-server.herokuapp.com/categories/';
-    fetch(URL)
-      .then(async (response) => {
-        const res = await response.json();
-        setCategories([
-          ...res,
-        ]);
-      });
-  }, []);
+  // useEffect(() => {
+  //   const URL = window.location.hostname.includes('localhost')
+  //     ? 'http://localhost:8080/categories/'
+  //     : 'https://lanzaflix-server.herokuapp.com/categories/';
+  //   fetch(URL)
+  //     .then(async (response) => {
+  //       const res = await response.json();
+  //       setCategories([
+  //         ...res,
+  //       ]);
+  //     });
+  // }, []);
 
   return (
     <>
