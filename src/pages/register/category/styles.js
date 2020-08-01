@@ -1,6 +1,10 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Content = styled.div`
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
   background: var(--secondary);
   color: var(--white);
   font-size: 28px;

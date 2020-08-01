@@ -37,9 +37,11 @@ function CategoryRegister() {
     <>
       <Layout>
         <Content>
-          <h1> Cadastro de Categoria {values.title} </h1>
+          {/* <h1> Cadastro de Categoria {values.title} </h1> */}
+          <h1> Aqui ainda está em construção :( </h1>
 
-          <Form onSubmit={function handleSubmit(event) {
+          <img src="https://lh6.ggpht.com/bnk6-_FcqNgaJeONsfcIO1zforvjq8tYLoSLmxwDxgVLZUhEiOvwu4HSlLejFAiGwQU%3Dw300" alt="Under Construction" />
+          {/* <Form onSubmit={function handleSubmit(event) {
             event.preventDefault();
             setCategories([
               ...categories,
@@ -87,9 +89,9 @@ function CategoryRegister() {
                 )
               })}
             </ul>
-          </Form>
+          </Form> */}
 
-          <Link to="/">Voltar para home</Link>
+          <Button as={Link} to="/">Voltar para home</Button>
         </Content>
       </Layout>
     </>
