@@ -295,6 +295,24 @@
       "categoryId": 6,
       "title": "Base para aprender os frameworks",
       "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+    },
+    {
+      "title": "Deep Purple - Perfect Strangers",
+      "url": "https://www.youtube.com/watch?v=byOAmFLJFuE",
+      "categoryId": 1,
+      "id": 41
+    },
+    {
+      "title": "Final Fantasy XV",
+      "url": "https://www.youtube.com/watch?v=CNM6o9um1dc",
+      "categoryId": 3,
+      "id": 42
+    },
+    {
+      "title": "F is for Family Trailer",
+      "url": "https://www.youtube.com/watch?v=lo1SrZf_FC8",
+      "categoryId": 4,
+      "id": 43
     }
   ]
 }
